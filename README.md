@@ -43,6 +43,19 @@ print('Close power supply port')
 del power_supply
 ```
 
+Output:
+```
+PPS3005 successfully initialised on COM14
+Max voltage: 25V
+Max amps: 2A
+Is power supply output on? False
+Turn power supply output on
+Is power supply output on? True
+Set power supply voltage to 20V
+Close power supply port
+Successfully closed PSU port
+```
+
 This example is available [here](example.py)
 
 ### Contributors
